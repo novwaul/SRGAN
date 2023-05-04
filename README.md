@@ -10,9 +10,11 @@ This code use custom SRResNet https://github.com/novwaul/SRResNet
 |Dataset|Bicubic|SRResNet|SRGAN|
 |:---:|:---:|:---:|:---:|
 |Set5|28.648|30.961 (-1.098)|28.683 (-0.717)|
-|Set14|26.406|28.174 (-0.316)|26.332 (+0.312)|
-|Urban100|23.220|24.759 (N/A)|23.300 (N/A)|
+|Set14|26.406|27.870 (-0.620)|26.020 (Same)|
+|Urban100|23.220|24.759 (None)|23.300 (None)|
 <p>(number) means PSNR difference compared to the paper.</p>
+<p>[2023.05.04: Set14 result update]</p>
+<p>Now gray-scale test image result is included. Please be aware that still this code does not use gray-scale test images.</p>
 
 ### Set14
 | GT | Bicubic | SRResNet | SRGAN |
